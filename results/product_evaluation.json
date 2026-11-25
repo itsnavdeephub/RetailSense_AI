@@ -1,0 +1,1612 @@
+[
+  {
+    "item_id": "FOODS_3_067",
+    "models": {
+      "seasonal_naive": {
+        "mae": 2.3571,
+        "rmse": 3.196,
+        "wape": 67.3469,
+        "smape": 67.6356,
+        "val_rmse": 2.1129,
+        "val_residual_std": 2.1514,
+        "val_q10_residual": -2.3,
+        "val_q90_residual": 2.3
+      },
+      "moving_average": {
+        "mae": 1.6301,
+        "rmse": 2.3617,
+        "wape": 46.5743,
+        "smape": 48.6002,
+        "val_rmse": 1.6577,
+        "val_residual_std": 1.6846,
+        "val_q10_residual": -2.0357,
+        "val_q90_residual": 2.1036
+      },
+      "lightgbm": {
+        "mae": 1.6899,
+        "rmse": 2.1187,
+        "wape": 48.2817,
+        "smape": 50.6655,
+        "val_rmse": 1.9233,
+        "val_residual_std": 1.662,
+        "val_q10_residual": -2.8219,
+        "val_q90_residual": 1.2037
+      },
+      "lstm": {
+        "mae": 1.7938,
+        "rmse": 2.4074,
+        "wape": 51.2517,
+        "smape": 55.1216,
+        "val_rmse": 1.77,
+        "val_residual_std": 1.7916,
+        "val_q10_residual": -1.8596,
+        "val_q90_residual": 2.6717
+      }
+    },
+    "best_model_mae": "moving_average"
+  },
+  {
+    "item_id": "FOODS_3_076",
+    "models": {
+      "seasonal_naive": {
+        "mae": 3.0,
+        "rmse": 3.5456,
+        "wape": 71.1864,
+        "smape": 96.5507,
+        "val_rmse": 3.9731,
+        "val_residual_std": 4.0434,
+        "val_q10_residual": -5.0,
+        "val_q90_residual": 5.3
+      },
+      "moving_average": {
+        "mae": 2.3278,
+        "rmse": 2.842,
+        "wape": 55.2361,
+        "smape": 65.3279,
+        "val_rmse": 2.6772,
+        "val_residual_std": 2.6766,
+        "val_q10_residual": -2.7071,
+        "val_q90_residual": 4.2071
+      },
+      "lightgbm": {
+        "mae": 2.2435,
+        "rmse": 2.7871,
+        "wape": 53.2367,
+        "smape": 62.514,
+        "val_rmse": 2.475,
+        "val_residual_std": 2.4942,
+        "val_q10_residual": -3.2671,
+        "val_q90_residual": 2.7461
+      },
+      "lstm": {
+        "mae": 2.3371,
+        "rmse": 2.9309,
+        "wape": 55.456,
+        "smape": 67.2697,
+        "val_rmse": 2.5402,
+        "val_residual_std": 2.5408,
+        "val_q10_residual": -2.4502,
+        "val_q90_residual": 3.9555
+      }
+    },
+    "best_model_mae": "lightgbm"
+  },
+  {
+    "item_id": "FOODS_3_080",
+    "models": {
+      "seasonal_naive": {
+        "mae": 5.25,
+        "rmse": 6.8739,
+        "wape": 27.8409,
+        "smape": 27.1331,
+        "val_rmse": 8.5503,
+        "val_residual_std": 8.6431,
+        "val_q10_residual": -10.0,
+        "val_q90_residual": 8.2
+      },
+      "moving_average": {
+        "mae": 4.5434,
+        "rmse": 5.8569,
+        "wape": 24.0936,
+        "smape": 24.4463,
+        "val_rmse": 6.6065,
+        "val_residual_std": 6.6597,
+        "val_q10_residual": -8.9964,
+        "val_q90_residual": 8.3357
+      },
+      "lightgbm": {
+        "mae": 4.0583,
+        "rmse": 5.4653,
+        "wape": 21.5215,
+        "smape": 21.8914,
+        "val_rmse": 5.9117,
+        "val_residual_std": 6.02,
+        "val_q10_residual": -5.9205,
+        "val_q90_residual": 9.1855
+      },
+      "lstm": {
+        "mae": 4.525,
+        "rmse": 6.1804,
+        "wape": 23.996,
+        "smape": 24.8096,
+        "val_rmse": 6.5232,
+        "val_residual_std": 6.5075,
+        "val_q10_residual": -5.4774,
+        "val_q90_residual": 10.0688
+      }
+    },
+    "best_model_mae": "lightgbm"
+  },
+  {
+    "item_id": "FOODS_3_086",
+    "models": {
+      "seasonal_naive": {
+        "mae": 6.1429,
+        "rmse": 7.2997,
+        "wape": 54.7771,
+        "smape": 60.0369,
+        "val_rmse": 7.5617,
+        "val_residual_std": 7.6811,
+        "val_q10_residual": -7.8,
+        "val_q90_residual": 6.9
+      },
+      "moving_average": {
+        "mae": 4.8559,
+        "rmse": 5.891,
+        "wape": 43.3007,
+        "smape": 46.1271,
+        "val_rmse": 5.4157,
+        "val_residual_std": 5.1807,
+        "val_q10_residual": -3.8536,
+        "val_q90_residual": 6.575
+      },
+      "lightgbm": {
+        "mae": 4.5836,
+        "rmse": 5.4879,
+        "wape": 40.8725,
+        "smape": 44.0371,
+        "val_rmse": 4.9965,
+        "val_residual_std": 5.0869,
+        "val_q10_residual": -5.024,
+        "val_q90_residual": 5.2858
+      },
+      "lstm": {
+        "mae": 4.5218,
+        "rmse": 5.7387,
+        "wape": 40.3221,
+        "smape": 42.6158,
+        "val_rmse": 4.7465,
+        "val_residual_std": 4.6489,
+        "val_q10_residual": -3.146,
+        "val_q90_residual": 5.8335
+      }
+    },
+    "best_model_mae": "lstm"
+  },
+  {
+    "item_id": "FOODS_3_090",
+    "models": {
+      "seasonal_naive": {
+        "mae": 15.1071,
+        "rmse": 19.4927,
+        "wape": 25.6053,
+        "smape": 27.0176,
+        "val_rmse": 23.4201,
+        "val_residual_std": 23.7911,
+        "val_q10_residual": -33.3,
+        "val_q90_residual": 26.2
+      },
+      "moving_average": {
+        "mae": 17.8788,
+        "rmse": 21.0381,
+        "wape": 30.3031,
+        "smape": 30.9979,
+        "val_rmse": 21.6283,
+        "val_residual_std": 21.9559,
+        "val_q10_residual": -26.8607,
+        "val_q90_residual": 31.2857
+      },
+      "lightgbm": {
+        "mae": 12.0679,
+        "rmse": 14.8068,
+        "wape": 20.4541,
+        "smape": 20.7405,
+        "val_rmse": 15.9022,
+        "val_residual_std": 16.1645,
+        "val_q10_residual": -19.6326,
+        "val_q90_residual": 16.1245
+      },
+      "lstm": {
+        "mae": 14.4714,
+        "rmse": 19.2299,
+        "wape": 24.5278,
+        "smape": 24.579,
+        "val_rmse": 17.2424,
+        "val_residual_std": 16.752,
+        "val_q10_residual": -14.6407,
+        "val_q90_residual": 28.0725
+      }
+    },
+    "best_model_mae": "lightgbm"
+  },
+  {
+    "item_id": "FOODS_3_099",
+    "models": {
+      "seasonal_naive": {
+        "mae": 6.0714,
+        "rmse": 7.5782,
+        "wape": 41.4634,
+        "smape": 46.9954,
+        "val_rmse": 9.4472,
+        "val_residual_std": 9.6189,
+        "val_q10_residual": -8.6,
+        "val_q90_residual": 11.2
+      },
+      "moving_average": {
+        "mae": 4.7857,
+        "rmse": 6.1645,
+        "wape": 32.6829,
+        "smape": 36.0453,
+        "val_rmse": 6.3681,
+        "val_residual_std": 6.444,
+        "val_q10_residual": -9.65,
+        "val_q90_residual": 5.95
+      },
+      "lightgbm": {
+        "mae": 4.6007,
+        "rmse": 5.9834,
+        "wape": 31.4196,
+        "smape": 34.8331,
+        "val_rmse": 6.6824,
+        "val_residual_std": 6.6433,
+        "val_q10_residual": -10.3741,
+        "val_q90_residual": 5.9493
+      },
+      "lstm": {
+        "mae": 4.8476,
+        "rmse": 6.0278,
+        "wape": 33.1058,
+        "smape": 37.0581,
+        "val_rmse": 7.0315,
+        "val_residual_std": 7.0634,
+        "val_q10_residual": -7.253,
+        "val_q90_residual": 8.8408
+      }
+    },
+    "best_model_mae": "lightgbm"
+  },
+  {
+    "item_id": "FOODS_3_107",
+    "models": {
+      "seasonal_naive": {
+        "mae": 2.4643,
+        "rmse": 3.0178,
+        "wape": 84.1463,
+        "smape": 102.2026,
+        "val_rmse": 2.841,
+        "val_residual_std": 2.8932,
+        "val_q10_residual": -4.0,
+        "val_q90_residual": 3.0
+      },
+      "moving_average": {
+        "mae": 1.6607,
+        "rmse": 1.9998,
+        "wape": 56.7073,
+        "smape": 62.7833,
+        "val_rmse": 1.916,
+        "val_residual_std": 1.9187,
+        "val_q10_residual": -2.4393,
+        "val_q90_residual": 1.6357
+      },
+      "lightgbm": {
+        "mae": 1.8333,
+        "rmse": 2.191,
+        "wape": 62.6021,
+        "smape": 64.1503,
+        "val_rmse": 2.2119,
+        "val_residual_std": 1.9179,
+        "val_q10_residual": -3.4892,
+        "val_q90_residual": 1.0924
+      },
+      "lstm": {
+        "mae": 1.8127,
+        "rmse": 2.1359,
+        "wape": 61.8987,
+        "smape": 65.8136,
+        "val_rmse": 1.9656,
+        "val_residual_std": 1.9208,
+        "val_q10_residual": -2.5913,
+        "val_q90_residual": 1.8852
+      }
+    },
+    "best_model_mae": "moving_average"
+  },
+  {
+    "item_id": "FOODS_3_156",
+    "models": {
+      "seasonal_naive": {
+        "mae": 2.0714,
+        "rmse": 2.6186,
+        "wape": 61.0526,
+        "smape": 70.0765,
+        "val_rmse": 4.7397,
+        "val_residual_std": 4.8155,
+        "val_q10_residual": -5.0,
+        "val_q90_residual": 5.0
+      },
+      "moving_average": {
+        "mae": 1.3699,
+        "rmse": 1.7407,
+        "wape": 40.3759,
+        "smape": 45.8546,
+        "val_rmse": 3.4744,
+        "val_residual_std": 3.4682,
+        "val_q10_residual": -3.0714,
+        "val_q90_residual": 5.2286
+      },
+      "lightgbm": {
+        "mae": 1.6,
+        "rmse": 2.0101,
+        "wape": 47.1575,
+        "smape": 49.8932,
+        "val_rmse": 3.4831,
+        "val_residual_std": 3.5267,
+        "val_q10_residual": -3.9024,
+        "val_q90_residual": 4.1449
+      },
+      "lstm": {
+        "mae": 1.4319,
+        "rmse": 1.7146,
+        "wape": 42.2026,
+        "smape": 48.384,
+        "val_rmse": 3.5407,
+        "val_residual_std": 3.5344,
+        "val_q10_residual": -2.7893,
+        "val_q90_residual": 5.4309
+      }
+    },
+    "best_model_mae": "moving_average"
+  },
+  {
+    "item_id": "FOODS_3_202",
+    "models": {
+      "seasonal_naive": {
+        "mae": 5.3214,
+        "rmse": 7.2284,
+        "wape": 33.4081,
+        "smape": 30.8304,
+        "val_rmse": 7.6858,
+        "val_residual_std": 7.8268,
+        "val_q10_residual": -10.0,
+        "val_q90_residual": 9.2
+      },
+      "moving_average": {
+        "mae": 4.2334,
+        "rmse": 5.4992,
+        "wape": 26.5775,
+        "smape": 25.731,
+        "val_rmse": 6.5967,
+        "val_residual_std": 6.6255,
+        "val_q10_residual": -7.3214,
+        "val_q90_residual": 9.4036
+      },
+      "lightgbm": {
+        "mae": 3.7978,
+        "rmse": 5.1105,
+        "wape": 23.8428,
+        "smape": 23.0892,
+        "val_rmse": 4.7408,
+        "val_residual_std": 4.8276,
+        "val_q10_residual": -6.405,
+        "val_q90_residual": 5.9945
+      },
+      "lstm": {
+        "mae": 3.843,
+        "rmse": 5.3443,
+        "wape": 24.1265,
+        "smape": 23.1991,
+        "val_rmse": 4.9637,
+        "val_residual_std": 4.9054,
+        "val_q10_residual": -5.5015,
+        "val_q90_residual": 6.8121
+      }
+    },
+    "best_model_mae": "lightgbm"
+  },
+  {
+    "item_id": "FOODS_3_203",
+    "models": {
+      "seasonal_naive": {
+        "mae": 3.1071,
+        "rmse": 4.04,
+        "wape": 79.0909,
+        "smape": 83.4763,
+        "val_rmse": 3.0822,
+        "val_residual_std": 3.1388,
+        "val_q10_residual": -3.0,
+        "val_q90_residual": 5.0
+      },
+      "moving_average": {
+        "mae": 2.2181,
+        "rmse": 2.6358,
+        "wape": 56.461,
+        "smape": 60.9012,
+        "val_rmse": 2.4945,
+        "val_residual_std": 2.4639,
+        "val_q10_residual": -2.25,
+        "val_q90_residual": 4.0857
+      },
+      "lightgbm": {
+        "mae": 2.2575,
+        "rmse": 2.6542,
+        "wape": 57.4631,
+        "smape": 61.3118,
+        "val_rmse": 2.281,
+        "val_residual_std": 2.3204,
+        "val_q10_residual": -2.3891,
+        "val_q90_residual": 3.2148
+      },
+      "lstm": {
+        "mae": 2.1034,
+        "rmse": 2.6631,
+        "wape": 53.5411,
+        "smape": 60.5144,
+        "val_rmse": 2.4999,
+        "val_residual_std": 2.2977,
+        "val_q10_residual": -1.4691,
+        "val_q90_residual": 4.1047
+      }
+    },
+    "best_model_mae": "lstm"
+  },
+  {
+    "item_id": "FOODS_3_217",
+    "models": {
+      "seasonal_naive": {
+        "mae": 1.8214,
+        "rmse": 2.2756,
+        "wape": 46.789,
+        "smape": 52.1054,
+        "val_rmse": 2.2756,
+        "val_residual_std": 2.2942,
+        "val_q10_residual": -3.0,
+        "val_q90_residual": 3.0
+      },
+      "moving_average": {
+        "mae": 1.5778,
+        "rmse": 1.8,
+        "wape": 40.5308,
+        "smape": 43.9137,
+        "val_rmse": 1.6104,
+        "val_residual_std": 1.6088,
+        "val_q10_residual": -2.5714,
+        "val_q90_residual": 1.45
+      },
+      "lightgbm": {
+        "mae": 1.3743,
+        "rmse": 1.6605,
+        "wape": 35.3035,
+        "smape": 38.7068,
+        "val_rmse": 1.8422,
+        "val_residual_std": 1.5481,
+        "val_q10_residual": -3.0038,
+        "val_q90_residual": 0.8682
+      },
+      "lstm": {
+        "mae": 1.2533,
+        "rmse": 1.5051,
+        "wape": 32.1961,
+        "smape": 35.8034,
+        "val_rmse": 1.5352,
+        "val_residual_std": 1.4876,
+        "val_q10_residual": -2.3017,
+        "val_q90_residual": 1.2792
+      }
+    },
+    "best_model_mae": "lstm"
+  },
+  {
+    "item_id": "FOODS_3_246",
+    "models": {
+      "seasonal_naive": {
+        "mae": 2.1071,
+        "rmse": 2.6254,
+        "wape": 113.4615,
+        "smape": 125.4422,
+        "val_rmse": 1.8516,
+        "val_residual_std": 1.88,
+        "val_q10_residual": -2.3,
+        "val_q90_residual": 2.3
+      },
+      "moving_average": {
+        "mae": 1.3278,
+        "rmse": 1.854,
+        "wape": 71.4973,
+        "smape": 90.3691,
+        "val_rmse": 1.1308,
+        "val_residual_std": 1.1307,
+        "val_q10_residual": -1.5571,
+        "val_q90_residual": 1.4464
+      },
+      "lightgbm": {
+        "mae": 1.7799,
+        "rmse": 2.0135,
+        "wape": 95.8396,
+        "smape": 92.0065,
+        "val_rmse": 1.785,
+        "val_residual_std": 1.1038,
+        "val_q10_residual": -2.737,
+        "val_q90_residual": 0.2488
+      },
+      "lstm": {
+        "mae": 1.2474,
+        "rmse": 1.8392,
+        "wape": 67.1677,
+        "smape": 90.9417,
+        "val_rmse": 1.0929,
+        "val_residual_std": 1.1126,
+        "val_q10_residual": -1.2669,
+        "val_q90_residual": 1.5473
+      }
+    },
+    "best_model_mae": "lstm"
+  },
+  {
+    "item_id": "FOODS_3_252",
+    "models": {
+      "seasonal_naive": {
+        "mae": 8.5357,
+        "rmse": 10.6788,
+        "wape": 22.048,
+        "smape": 23.7291,
+        "val_rmse": 10.974,
+        "val_residual_std": 11.1751,
+        "val_q10_residual": -13.3,
+        "val_q90_residual": 12.6
+      },
+      "moving_average": {
+        "mae": 11.1556,
+        "rmse": 15.2909,
+        "wape": 28.8152,
+        "smape": 28.9298,
+        "val_rmse": 13.132,
+        "val_residual_std": 13.2169,
+        "val_q10_residual": -13.6679,
+        "val_q90_residual": 19.2071
+      },
+      "lightgbm": {
+        "mae": 6.497,
+        "rmse": 8.7551,
+        "wape": 16.7819,
+        "smape": 18.0048,
+        "val_rmse": 8.083,
+        "val_residual_std": 8.2122,
+        "val_q10_residual": -9.361,
+        "val_q90_residual": 9.4278
+      },
+      "lstm": {
+        "mae": 7.5723,
+        "rmse": 11.5222,
+        "wape": 19.5596,
+        "smape": 19.9429,
+        "val_rmse": 10.8151,
+        "val_residual_std": 10.4414,
+        "val_q10_residual": -9.2334,
+        "val_q90_residual": 14.9848
+      }
+    },
+    "best_model_mae": "lightgbm"
+  },
+  {
+    "item_id": "FOODS_3_295",
+    "models": {
+      "seasonal_naive": {
+        "mae": 10.3214,
+        "rmse": 13.7178,
+        "wape": 47.2222,
+        "smape": 47.5643,
+        "val_rmse": 19.1068,
+        "val_residual_std": 19.4541,
+        "val_q10_residual": -17.0,
+        "val_q90_residual": 19.0
+      },
+      "moving_average": {
+        "mae": 9.963,
+        "rmse": 12.0181,
+        "wape": 45.5824,
+        "smape": 45.664,
+        "val_rmse": 14.9581,
+        "val_residual_std": 15.048,
+        "val_q10_residual": -15.8464,
+        "val_q90_residual": 12.5929
+      },
+      "lightgbm": {
+        "mae": 8.3212,
+        "rmse": 10.8997,
+        "wape": 38.0709,
+        "smape": 38.0596,
+        "val_rmse": 14.5793,
+        "val_residual_std": 14.797,
+        "val_q10_residual": -12.2218,
+        "val_q90_residual": 13.9915
+      },
+      "lstm": {
+        "mae": 8.3959,
+        "rmse": 11.6868,
+        "wape": 38.4124,
+        "smape": 38.5822,
+        "val_rmse": 14.7076,
+        "val_residual_std": 14.3464,
+        "val_q10_residual": -8.5549,
+        "val_q90_residual": 16.1053
+      }
+    },
+    "best_model_mae": "lightgbm"
+  },
+  {
+    "item_id": "FOODS_3_332",
+    "models": {
+      "seasonal_naive": {
+        "mae": 1.2143,
+        "rmse": 1.7321,
+        "wape": 136.0,
+        "smape": 105.7823,
+        "val_rmse": 2.1794,
+        "val_residual_std": 2.212,
+        "val_q10_residual": -2.3,
+        "val_q90_residual": 3.0
+      },
+      "moving_average": {
+        "mae": 1.4745,
+        "rmse": 1.5631,
+        "wape": 165.1429,
+        "smape": 143.0508,
+        "val_rmse": 1.4135,
+        "val_residual_std": 1.4338,
+        "val_q10_residual": -1.25,
+        "val_q90_residual": 1.7607
+      },
+      "lightgbm": {
+        "mae": 2.0766,
+        "rmse": 2.2691,
+        "wape": 232.5758,
+        "smape": 140.333,
+        "val_rmse": 1.5242,
+        "val_residual_std": 1.3854,
+        "val_q10_residual": -2.0806,
+        "val_q90_residual": 1.1497
+      },
+      "lstm": {
+        "mae": 1.1872,
+        "rmse": 1.3603,
+        "wape": 132.9695,
+        "smape": 146.3971,
+        "val_rmse": 1.4141,
+        "val_residual_std": 1.4246,
+        "val_q10_residual": -1.4451,
+        "val_q90_residual": 1.8287
+      }
+    },
+    "best_model_mae": "lstm"
+  },
+  {
+    "item_id": "FOODS_3_339",
+    "models": {
+      "seasonal_naive": {
+        "mae": 5.7857,
+        "rmse": 7.2605,
+        "wape": 103.1847,
+        "smape": 108.3843,
+        "val_rmse": 7.7713,
+        "val_residual_std": 7.8897,
+        "val_q10_residual": -9.0,
+        "val_q90_residual": 6.9
+      },
+      "moving_average": {
+        "mae": 4.6339,
+        "rmse": 5.3716,
+        "wape": 82.6433,
+        "smape": 93.8665,
+        "val_rmse": 6.82,
+        "val_residual_std": 6.9452,
+        "val_q10_residual": -7.4143,
+        "val_q90_residual": 6.5821
+      },
+      "lightgbm": {
+        "mae": 4.2148,
+        "rmse": 5.1254,
+        "wape": 75.1686,
+        "smape": 92.617,
+        "val_rmse": 6.405,
+        "val_residual_std": 6.5214,
+        "val_q10_residual": -5.5091,
+        "val_q90_residual": 6.0906
+      },
+      "lstm": {
+        "mae": 4.0846,
+        "rmse": 5.0271,
+        "wape": 72.8472,
+        "smape": 94.7111,
+        "val_rmse": 6.5665,
+        "val_residual_std": 6.3959,
+        "val_q10_residual": -4.3427,
+        "val_q90_residual": 7.4131
+      }
+    },
+    "best_model_mae": "lstm"
+  },
+  {
+    "item_id": "FOODS_3_346",
+    "models": {
+      "seasonal_naive": {
+        "mae": 1.7857,
+        "rmse": 2.2678,
+        "wape": 51.0204,
+        "smape": 50.3432,
+        "val_rmse": 3.5857,
+        "val_residual_std": 3.6048,
+        "val_q10_residual": -4.0,
+        "val_q90_residual": 3.3
+      },
+      "moving_average": {
+        "mae": 1.7704,
+        "rmse": 2.0819,
+        "wape": 50.5831,
+        "smape": 51.6398,
+        "val_rmse": 3.3288,
+        "val_residual_std": 3.3893,
+        "val_q10_residual": -3.7786,
+        "val_q90_residual": 3.7357
+      },
+      "lightgbm": {
+        "mae": 1.7447,
+        "rmse": 1.9666,
+        "wape": 49.8473,
+        "smape": 51.3684,
+        "val_rmse": 3.0071,
+        "val_residual_std": 3.0259,
+        "val_q10_residual": -3.6138,
+        "val_q90_residual": 2.8465
+      },
+      "lstm": {
+        "mae": 1.5254,
+        "rmse": 1.7793,
+        "wape": 43.5816,
+        "smape": 46.4747,
+        "val_rmse": 2.9038,
+        "val_residual_std": 2.9435,
+        "val_q10_residual": -2.6411,
+        "val_q90_residual": 3.5406
+      }
+    },
+    "best_model_mae": "lstm"
+  },
+  {
+    "item_id": "FOODS_3_363",
+    "models": {
+      "seasonal_naive": {
+        "mae": 5.75,
+        "rmse": 9.0218,
+        "wape": 73.8532,
+        "smape": 79.1759,
+        "val_rmse": 6.0,
+        "val_residual_std": 6.1101,
+        "val_q10_residual": -6.3,
+        "val_q90_residual": 7.3
+      },
+      "moving_average": {
+        "mae": 5.6224,
+        "rmse": 8.179,
+        "wape": 72.2149,
+        "smape": 76.9982,
+        "val_rmse": 5.8972,
+        "val_residual_std": 5.9772,
+        "val_q10_residual": -4.5964,
+        "val_q90_residual": 8.6036
+      },
+      "lightgbm": {
+        "mae": 5.0372,
+        "rmse": 7.7131,
+        "wape": 64.6981,
+        "smape": 68.7111,
+        "val_rmse": 5.3142,
+        "val_residual_std": 5.4062,
+        "val_q10_residual": -4.9835,
+        "val_q90_residual": 7.002
+      },
+      "lstm": {
+        "mae": 4.9133,
+        "rmse": 8.0284,
+        "wape": 63.1068,
+        "smape": 66.8057,
+        "val_rmse": 5.7965,
+        "val_residual_std": 5.7013,
+        "val_q10_residual": -3.7909,
+        "val_q90_residual": 8.9317
+      }
+    },
+    "best_model_mae": "lstm"
+  },
+  {
+    "item_id": "FOODS_3_406",
+    "models": {
+      "seasonal_naive": {
+        "mae": 8.0357,
+        "rmse": 11.034,
+        "wape": 57.398,
+        "smape": 59.7056,
+        "val_rmse": 12.089,
+        "val_residual_std": 12.2063,
+        "val_q10_residual": -12.3,
+        "val_q90_residual": 15.3
+      },
+      "moving_average": {
+        "mae": 7.537,
+        "rmse": 9.0105,
+        "wape": 53.8356,
+        "smape": 55.6488,
+        "val_rmse": 11.1173,
+        "val_residual_std": 10.8155,
+        "val_q10_residual": -6.7679,
+        "val_q90_residual": 22.5857
+      },
+      "lightgbm": {
+        "mae": 5.5908,
+        "rmse": 7.7226,
+        "wape": 39.9345,
+        "smape": 42.5376,
+        "val_rmse": 10.8381,
+        "val_residual_std": 10.8691,
+        "val_q10_residual": -9.3095,
+        "val_q90_residual": 17.0237
+      },
+      "lstm": {
+        "mae": 6.2516,
+        "rmse": 8.6617,
+        "wape": 44.6542,
+        "smape": 47.1083,
+        "val_rmse": 10.7242,
+        "val_residual_std": 10.1646,
+        "val_q10_residual": -6.5338,
+        "val_q90_residual": 18.3724
+      }
+    },
+    "best_model_mae": "lightgbm"
+  },
+  {
+    "item_id": "FOODS_3_418",
+    "models": {
+      "seasonal_naive": {
+        "mae": 2.1071,
+        "rmse": 2.719,
+        "wape": 70.2381,
+        "smape": 77.4696,
+        "val_rmse": 1.9911,
+        "val_residual_std": 2.0246,
+        "val_q10_residual": -3.3,
+        "val_q90_residual": 2.0
+      },
+      "moving_average": {
+        "mae": 1.5332,
+        "rmse": 1.9068,
+        "wape": 51.1054,
+        "smape": 63.3289,
+        "val_rmse": 1.6158,
+        "val_residual_std": 1.6067,
+        "val_q10_residual": -1.4393,
+        "val_q90_residual": 2.5821
+      },
+      "lightgbm": {
+        "mae": 1.3359,
+        "rmse": 1.7789,
+        "wape": 44.5314,
+        "smape": 52.47,
+        "val_rmse": 1.8694,
+        "val_residual_std": 1.5933,
+        "val_q10_residual": -2.7909,
+        "val_q90_residual": 0.9675
+      },
+      "lstm": {
+        "mae": 1.3795,
+        "rmse": 1.8197,
+        "wape": 45.9826,
+        "smape": 56.9329,
+        "val_rmse": 1.5412,
+        "val_residual_std": 1.5611,
+        "val_q10_residual": -1.763,
+        "val_q90_residual": 2.0736
+      }
+    },
+    "best_model_mae": "lightgbm"
+  },
+  {
+    "item_id": "FOODS_3_460",
+    "models": {
+      "seasonal_naive": {
+        "mae": 2.6786,
+        "rmse": 3.8126,
+        "wape": 69.4444,
+        "smape": 75.6321,
+        "val_rmse": 2.5495,
+        "val_residual_std": 2.5953,
+        "val_q10_residual": -3.3,
+        "val_q90_residual": 3.0
+      },
+      "moving_average": {
+        "mae": 2.4707,
+        "rmse": 3.3071,
+        "wape": 64.0542,
+        "smape": 69.7557,
+        "val_rmse": 2.0676,
+        "val_residual_std": 2.0976,
+        "val_q10_residual": -2.5821,
+        "val_q90_residual": 2.15
+      },
+      "lightgbm": {
+        "mae": 2.3879,
+        "rmse": 3.0784,
+        "wape": 61.908,
+        "smape": 66.8308,
+        "val_rmse": 2.0327,
+        "val_residual_std": 2.0206,
+        "val_q10_residual": -2.6487,
+        "val_q90_residual": 1.8515
+      },
+      "lstm": {
+        "mae": 2.3964,
+        "rmse": 3.1781,
+        "wape": 62.1278,
+        "smape": 68.6863,
+        "val_rmse": 1.9954,
+        "val_residual_std": 2.0303,
+        "val_q10_residual": -1.89,
+        "val_q90_residual": 2.2369
+      }
+    },
+    "best_model_mae": "lightgbm"
+  },
+  {
+    "item_id": "FOODS_3_501",
+    "models": {
+      "seasonal_naive": {
+        "mae": 10.8214,
+        "rmse": 12.8049,
+        "wape": 47.1963,
+        "smape": 49.2243,
+        "val_rmse": 18.4923,
+        "val_residual_std": 18.7933,
+        "val_q10_residual": -22.0,
+        "val_q90_residual": 24.5
+      },
+      "moving_average": {
+        "mae": 8.7997,
+        "rmse": 10.3617,
+        "wape": 38.3789,
+        "smape": 39.0278,
+        "val_rmse": 15.2811,
+        "val_residual_std": 15.5375,
+        "val_q10_residual": -15.2821,
+        "val_q90_residual": 19.2143
+      },
+      "lightgbm": {
+        "mae": 7.1998,
+        "rmse": 8.886,
+        "wape": 31.401,
+        "smape": 32.2911,
+        "val_rmse": 15.4571,
+        "val_residual_std": 15.7209,
+        "val_q10_residual": -13.351,
+        "val_q90_residual": 19.8758
+      },
+      "lstm": {
+        "mae": 7.926,
+        "rmse": 10.0215,
+        "wape": 34.5684,
+        "smape": 36.2872,
+        "val_rmse": 16.1868,
+        "val_residual_std": 15.8607,
+        "val_q10_residual": -10.8765,
+        "val_q90_residual": 26.6467
+      }
+    },
+    "best_model_mae": "lightgbm"
+  },
+  {
+    "item_id": "FOODS_3_534",
+    "models": {
+      "seasonal_naive": {
+        "mae": 2.7857,
+        "rmse": 3.5657,
+        "wape": 51.3158,
+        "smape": 56.5566,
+        "val_rmse": 4.062,
+        "val_residual_std": 4.0844,
+        "val_q10_residual": -5.6,
+        "val_q90_residual": 3.3
+      },
+      "moving_average": {
+        "mae": 2.8291,
+        "rmse": 3.7942,
+        "wape": 52.1147,
+        "smape": 54.2733,
+        "val_rmse": 3.0002,
+        "val_residual_std": 2.8249,
+        "val_q10_residual": -3.9357,
+        "val_q90_residual": 4.0714
+      },
+      "lightgbm": {
+        "mae": 2.5953,
+        "rmse": 3.2263,
+        "wape": 47.8073,
+        "smape": 50.3849,
+        "val_rmse": 3.05,
+        "val_residual_std": 2.7921,
+        "val_q10_residual": -3.9496,
+        "val_q90_residual": 3.2733
+      },
+      "lstm": {
+        "mae": 2.5926,
+        "rmse": 3.2936,
+        "wape": 47.7579,
+        "smape": 50.2462,
+        "val_rmse": 2.9186,
+        "val_residual_std": 2.8459,
+        "val_q10_residual": -3.7238,
+        "val_q90_residual": 3.5584
+      }
+    },
+    "best_model_mae": "lstm"
+  },
+  {
+    "item_id": "FOODS_3_555",
+    "models": {
+      "seasonal_naive": {
+        "mae": 2.9643,
+        "rmse": 3.9596,
+        "wape": 14.4348,
+        "smape": 14.7871,
+        "val_rmse": 4.4681,
+        "val_residual_std": 4.5255,
+        "val_q10_residual": -5.6,
+        "val_q90_residual": 5.6
+      },
+      "moving_average": {
+        "mae": 4.7194,
+        "rmse": 5.7605,
+        "wape": 22.9814,
+        "smape": 22.8882,
+        "val_rmse": 6.6605,
+        "val_residual_std": 6.7614,
+        "val_q10_residual": -5.9071,
+        "val_q90_residual": 12.6071
+      },
+      "lightgbm": {
+        "mae": 3.0456,
+        "rmse": 4.1059,
+        "wape": 14.8309,
+        "smape": 14.9111,
+        "val_rmse": 4.0964,
+        "val_residual_std": 4.1341,
+        "val_q10_residual": -3.9111,
+        "val_q90_residual": 6.8997
+      },
+      "lstm": {
+        "mae": 3.7232,
+        "rmse": 4.9171,
+        "wape": 18.1302,
+        "smape": 18.4348,
+        "val_rmse": 4.5337,
+        "val_residual_std": 4.5506,
+        "val_q10_residual": -5.3044,
+        "val_q90_residual": 7.8015
+      }
+    },
+    "best_model_mae": "seasonal_naive"
+  },
+  {
+    "item_id": "FOODS_3_580",
+    "models": {
+      "seasonal_naive": {
+        "mae": 5.6429,
+        "rmse": 7.8422,
+        "wape": 158.0,
+        "smape": 146.2925,
+        "val_rmse": 6.115,
+        "val_residual_std": 6.2245,
+        "val_q10_residual": -8.0,
+        "val_q90_residual": 7.0
+      },
+      "moving_average": {
+        "mae": 3.7895,
+        "rmse": 4.7578,
+        "wape": 106.1071,
+        "smape": 120.5357,
+        "val_rmse": 4.6429,
+        "val_residual_std": 4.7256,
+        "val_q10_residual": -4.1429,
+        "val_q90_residual": 6.1536
+      },
+      "lightgbm": {
+        "mae": 4.2223,
+        "rmse": 4.9569,
+        "wape": 118.224,
+        "smape": 120.8947,
+        "val_rmse": 4.7146,
+        "val_residual_std": 4.7249,
+        "val_q10_residual": -5.6199,
+        "val_q90_residual": 5.1627
+      },
+      "lstm": {
+        "mae": 3.3242,
+        "rmse": 5.1813,
+        "wape": 93.0775,
+        "smape": 130.1562,
+        "val_rmse": 5.0764,
+        "val_residual_std": 4.6886,
+        "val_q10_residual": -2.2031,
+        "val_q90_residual": 8.0067
+      }
+    },
+    "best_model_mae": "lstm"
+  },
+  {
+    "item_id": "FOODS_3_586",
+    "models": {
+      "seasonal_naive": {
+        "mae": 7.9643,
+        "rmse": 10.6049,
+        "wape": 19.3074,
+        "smape": 19.992,
+        "val_rmse": 8.4494,
+        "val_residual_std": 8.5637,
+        "val_q10_residual": -9.0,
+        "val_q90_residual": 8.9
+      },
+      "moving_average": {
+        "mae": 8.227,
+        "rmse": 11.0375,
+        "wape": 19.9443,
+        "smape": 20.247,
+        "val_rmse": 11.7748,
+        "val_residual_std": 11.9906,
+        "val_q10_residual": -10.9929,
+        "val_q90_residual": 18.4214
+      },
+      "lightgbm": {
+        "mae": 6.8818,
+        "rmse": 8.4186,
+        "wape": 16.6831,
+        "smape": 17.4968,
+        "val_rmse": 7.2376,
+        "val_residual_std": 7.3454,
+        "val_q10_residual": -7.3545,
+        "val_q90_residual": 11.9511
+      },
+      "lstm": {
+        "mae": 7.2175,
+        "rmse": 9.1115,
+        "wape": 17.4969,
+        "smape": 17.7983,
+        "val_rmse": 9.507,
+        "val_residual_std": 9.5244,
+        "val_q10_residual": -9.3269,
+        "val_q90_residual": 13.3614
+      }
+    },
+    "best_model_mae": "lightgbm"
+  },
+  {
+    "item_id": "FOODS_3_587",
+    "models": {
+      "seasonal_naive": {
+        "mae": 8.0357,
+        "rmse": 10.0018,
+        "wape": 35.2113,
+        "smape": 39.7804,
+        "val_rmse": 10.5323,
+        "val_residual_std": 9.3189,
+        "val_q10_residual": -17.6,
+        "val_q90_residual": 5.6
+      },
+      "moving_average": {
+        "mae": 7.8648,
+        "rmse": 11.2023,
+        "wape": 34.4623,
+        "smape": 34.9378,
+        "val_rmse": 10.4885,
+        "val_residual_std": 7.448,
+        "val_q10_residual": -16.5357,
+        "val_q90_residual": 2.4714
+      },
+      "lightgbm": {
+        "mae": 6.5797,
+        "rmse": 8.9693,
+        "wape": 28.8314,
+        "smape": 29.283,
+        "val_rmse": 7.5847,
+        "val_residual_std": 6.4853,
+        "val_q10_residual": -12.1917,
+        "val_q90_residual": 4.7356
+      },
+      "lstm": {
+        "mae": 6.8091,
+        "rmse": 9.3076,
+        "wape": 29.8366,
+        "smape": 31.068,
+        "val_rmse": 6.1733,
+        "val_residual_std": 5.8306,
+        "val_q10_residual": -8.5375,
+        "val_q90_residual": 5.5095
+      }
+    },
+    "best_model_mae": "lightgbm"
+  },
+  {
+    "item_id": "FOODS_3_654",
+    "models": {
+      "seasonal_naive": {
+        "mae": 4.4643,
+        "rmse": 5.7352,
+        "wape": 54.8246,
+        "smape": 56.5443,
+        "val_rmse": 4.3548,
+        "val_residual_std": 4.3805,
+        "val_q10_residual": -5.3,
+        "val_q90_residual": 4.6
+      },
+      "moving_average": {
+        "mae": 3.5166,
+        "rmse": 4.6594,
+        "wape": 43.1861,
+        "smape": 45.1413,
+        "val_rmse": 3.6287,
+        "val_residual_std": 3.6953,
+        "val_q10_residual": -4.0214,
+        "val_q90_residual": 4.2536
+      },
+      "lightgbm": {
+        "mae": 3.3316,
+        "rmse": 4.4919,
+        "wape": 40.9144,
+        "smape": 43.0268,
+        "val_rmse": 3.3498,
+        "val_residual_std": 3.4028,
+        "val_q10_residual": -2.9834,
+        "val_q90_residual": 5.7337
+      },
+      "lstm": {
+        "mae": 3.1944,
+        "rmse": 4.5167,
+        "wape": 39.2296,
+        "smape": 40.6352,
+        "val_rmse": 3.4751,
+        "val_residual_std": 3.4631,
+        "val_q10_residual": -2.6274,
+        "val_q90_residual": 6.5593
+      }
+    },
+    "best_model_mae": "lstm"
+  },
+  {
+    "item_id": "FOODS_3_681",
+    "models": {
+      "seasonal_naive": {
+        "mae": 8.3214,
+        "rmse": 9.3408,
+        "wape": 39.3581,
+        "smape": 45.6646,
+        "val_rmse": 10.3751,
+        "val_residual_std": 10.5592,
+        "val_q10_residual": -6.8,
+        "val_q90_residual": 9.3
+      },
+      "moving_average": {
+        "mae": 7.9158,
+        "rmse": 9.4748,
+        "wape": 37.4397,
+        "smape": 40.7321,
+        "val_rmse": 8.6032,
+        "val_residual_std": 8.152,
+        "val_q10_residual": -5.5464,
+        "val_q90_residual": 14.0393
+      },
+      "lightgbm": {
+        "mae": 6.6116,
+        "rmse": 7.9927,
+        "wape": 31.2711,
+        "smape": 34.9958,
+        "val_rmse": 6.1485,
+        "val_residual_std": 6.0673,
+        "val_q10_residual": -8.3328,
+        "val_q90_residual": 3.1902
+      },
+      "lstm": {
+        "mae": 6.9655,
+        "rmse": 8.7347,
+        "wape": 32.9451,
+        "smape": 36.3463,
+        "val_rmse": 6.3637,
+        "val_residual_std": 6.2579,
+        "val_q10_residual": -5.3279,
+        "val_q90_residual": 8.2622
+      }
+    },
+    "best_model_mae": "lightgbm"
+  },
+  {
+    "item_id": "FOODS_3_697",
+    "models": {
+      "seasonal_naive": {
+        "mae": 4.5,
+        "rmse": 5.305,
+        "wape": 34.6154,
+        "smape": 37.5027,
+        "val_rmse": 6.6144,
+        "val_residual_std": 6.7191,
+        "val_q10_residual": -8.3,
+        "val_q90_residual": 7.9
+      },
+      "moving_average": {
+        "mae": 4.0918,
+        "rmse": 4.9601,
+        "wape": 31.4757,
+        "smape": 31.984,
+        "val_rmse": 5.1062,
+        "val_residual_std": 5.1927,
+        "val_q10_residual": -7.0,
+        "val_q90_residual": 6.6786
+      },
+      "lightgbm": {
+        "mae": 3.3175,
+        "rmse": 4.0383,
+        "wape": 25.5191,
+        "smape": 26.3574,
+        "val_rmse": 4.6306,
+        "val_residual_std": 4.6752,
+        "val_q10_residual": -4.6448,
+        "val_q90_residual": 7.2415
+      },
+      "lstm": {
+        "mae": 3.2429,
+        "rmse": 4.0284,
+        "wape": 24.9455,
+        "smape": 25.4698,
+        "val_rmse": 4.7743,
+        "val_residual_std": 4.719,
+        "val_q10_residual": -4.1222,
+        "val_q90_residual": 8.0664
+      }
+    },
+    "best_model_mae": "lstm"
+  },
+  {
+    "item_id": "FOODS_3_702",
+    "models": {
+      "seasonal_naive": {
+        "mae": 6.0,
+        "rmse": 7.5024,
+        "wape": 37.2506,
+        "smape": 41.1155,
+        "val_rmse": 5.6188,
+        "val_residual_std": 5.6844,
+        "val_q10_residual": -6.0,
+        "val_q90_residual": 9.0
+      },
+      "moving_average": {
+        "mae": 5.3329,
+        "rmse": 6.5497,
+        "wape": 33.109,
+        "smape": 34.9517,
+        "val_rmse": 4.7979,
+        "val_residual_std": 4.3105,
+        "val_q10_residual": -3.3464,
+        "val_q90_residual": 8.5071
+      },
+      "lightgbm": {
+        "mae": 4.3275,
+        "rmse": 5.3626,
+        "wape": 26.8671,
+        "smape": 28.0487,
+        "val_rmse": 3.9725,
+        "val_residual_std": 4.0123,
+        "val_q10_residual": -5.6497,
+        "val_q90_residual": 4.1258
+      },
+      "lstm": {
+        "mae": 4.51,
+        "rmse": 5.5868,
+        "wape": 28.0003,
+        "smape": 29.2105,
+        "val_rmse": 4.254,
+        "val_residual_std": 4.2421,
+        "val_q10_residual": -4.9662,
+        "val_q90_residual": 6.571
+      }
+    },
+    "best_model_mae": "lightgbm"
+  },
+  {
+    "item_id": "FOODS_3_714",
+    "models": {
+      "seasonal_naive": {
+        "mae": 8.2143,
+        "rmse": 10.1524,
+        "wape": 42.8305,
+        "smape": 49.0327,
+        "val_rmse": 8.5857,
+        "val_residual_std": 8.5521,
+        "val_q10_residual": -13.3,
+        "val_q90_residual": 9.2
+      },
+      "moving_average": {
+        "mae": 7.9107,
+        "rmse": 10.6237,
+        "wape": 41.2477,
+        "smape": 43.3796,
+        "val_rmse": 10.0613,
+        "val_residual_std": 10.1753,
+        "val_q10_residual": -13.8607,
+        "val_q90_residual": 14.3536
+      },
+      "lightgbm": {
+        "mae": 5.9444,
+        "rmse": 7.3728,
+        "wape": 30.9949,
+        "smape": 34.7306,
+        "val_rmse": 6.9575,
+        "val_residual_std": 6.1979,
+        "val_q10_residual": -11.2381,
+        "val_q90_residual": 5.9367
+      },
+      "lstm": {
+        "mae": 6.3985,
+        "rmse": 8.4928,
+        "wape": 33.3625,
+        "smape": 36.3398,
+        "val_rmse": 7.4043,
+        "val_residual_std": 7.3749,
+        "val_q10_residual": -11.6327,
+        "val_q90_residual": 9.2564
+      }
+    },
+    "best_model_mae": "lightgbm"
+  },
+  {
+    "item_id": "FOODS_3_727",
+    "models": {
+      "seasonal_naive": {
+        "mae": 1.7143,
+        "rmse": 2.1547,
+        "wape": 62.3377,
+        "smape": 75.9454,
+        "val_rmse": 3.3381,
+        "val_residual_std": 3.3986,
+        "val_q10_residual": -4.3,
+        "val_q90_residual": 5.0
+      },
+      "moving_average": {
+        "mae": 1.5102,
+        "rmse": 2.0418,
+        "wape": 54.9165,
+        "smape": 56.7353,
+        "val_rmse": 2.4986,
+        "val_residual_std": 2.5209,
+        "val_q10_residual": -2.3964,
+        "val_q90_residual": 3.6786
+      },
+      "lightgbm": {
+        "mae": 1.6027,
+        "rmse": 2.0672,
+        "wape": 58.2806,
+        "smape": 58.3546,
+        "val_rmse": 2.4095,
+        "val_residual_std": 2.418,
+        "val_q10_residual": -2.8652,
+        "val_q90_residual": 2.945
+      },
+      "lstm": {
+        "mae": 1.5425,
+        "rmse": 2.0822,
+        "wape": 56.0903,
+        "smape": 59.1427,
+        "val_rmse": 2.2614,
+        "val_residual_std": 2.3016,
+        "val_q10_residual": -1.8325,
+        "val_q90_residual": 3.4122
+      }
+    },
+    "best_model_mae": "moving_average"
+  },
+  {
+    "item_id": "FOODS_3_741",
+    "models": {
+      "seasonal_naive": {
+        "mae": 6.5,
+        "rmse": 8.1416,
+        "wape": 38.806,
+        "smape": 39.2085,
+        "val_rmse": 10.7288,
+        "val_residual_std": 10.8132,
+        "val_q10_residual": -16.2,
+        "val_q90_residual": 12.3
+      },
+      "moving_average": {
+        "mae": 5.3992,
+        "rmse": 6.5216,
+        "wape": 32.2342,
+        "smape": 33.3633,
+        "val_rmse": 7.5584,
+        "val_residual_std": 7.6971,
+        "val_q10_residual": -8.1286,
+        "val_q90_residual": 12.8214
+      },
+      "lightgbm": {
+        "mae": 5.07,
+        "rmse": 6.0125,
+        "wape": 30.2689,
+        "smape": 31.2003,
+        "val_rmse": 7.4161,
+        "val_residual_std": 7.4664,
+        "val_q10_residual": -8.7035,
+        "val_q90_residual": 7.12
+      },
+      "lstm": {
+        "mae": 4.5774,
+        "rmse": 5.8491,
+        "wape": 27.3278,
+        "smape": 27.9876,
+        "val_rmse": 7.5163,
+        "val_residual_std": 7.6262,
+        "val_q10_residual": -6.9703,
+        "val_q90_residual": 9.5266
+      }
+    },
+    "best_model_mae": "lstm"
+  },
+  {
+    "item_id": "FOODS_3_744",
+    "models": {
+      "seasonal_naive": {
+        "mae": 4.1429,
+        "rmse": 5.2509,
+        "wape": 48.7395,
+        "smape": 48.4926,
+        "val_rmse": 4.9244,
+        "val_residual_std": 4.8864,
+        "val_q10_residual": -7.6,
+        "val_q90_residual": 5.3
+      },
+      "moving_average": {
+        "mae": 3.2628,
+        "rmse": 4.0255,
+        "wape": 38.3854,
+        "smape": 39.4992,
+        "val_rmse": 4.2312,
+        "val_residual_std": 3.3649,
+        "val_q10_residual": -6.9857,
+        "val_q90_residual": 2.0143
+      },
+      "lightgbm": {
+        "mae": 3.6836,
+        "rmse": 4.3589,
+        "wape": 43.3369,
+        "smape": 42.9023,
+        "val_rmse": 3.5548,
+        "val_residual_std": 2.8771,
+        "val_q10_residual": -5.8512,
+        "val_q90_residual": 1.6725
+      },
+      "lstm": {
+        "mae": 3.2559,
+        "rmse": 3.9748,
+        "wape": 38.3041,
+        "smape": 38.8417,
+        "val_rmse": 3.2112,
+        "val_residual_std": 2.8655,
+        "val_q10_residual": -5.1908,
+        "val_q90_residual": 2.4464
+      }
+    },
+    "best_model_mae": "lstm"
+  }
+]

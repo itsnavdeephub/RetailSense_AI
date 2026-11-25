@@ -1,0 +1,386 @@
+{
+  "evaluation_protocol": {
+    "validation_period": "2016-03-28 to 2016-04-24 (28 days, 4 rolling 7-day origins)",
+    "test_period": "2016-04-25 to 2016-05-22 (28 days, 4 rolling 7-day origins)",
+    "forecast_horizon_days": 7,
+    "num_products": 35,
+    "test_observations_per_model": 980
+  },
+  "validation_metrics": {
+    "seasonal_naive": {
+      "mae": 5.6214,
+      "rmse": 8.7446,
+      "wape": 43.6046,
+      "smape": 63.5258
+    },
+    "moving_average": {
+      "mae": 4.9795,
+      "rmse": 7.8513,
+      "wape": 38.6251,
+      "smape": 51.5135
+    },
+    "lightgbm": {
+      "mae": 4.26,
+      "rmse": 6.5627,
+      "wape": 33.0444,
+      "smape": 48.4906
+    },
+    "lstm": {
+      "mae": 4.2631,
+      "rmse": 6.9274,
+      "wape": 33.0685,
+      "smape": 48.5159
+    }
+  },
+  "test_metrics": {
+    "seasonal_naive": {
+      "mae": 5.2316,
+      "rmse": 7.779,
+      "wape": 39.4051,
+      "smape": 61.0694
+    },
+    "moving_average": {
+      "mae": 4.8497,
+      "rmse": 7.503,
+      "wape": 36.5284,
+      "smape": 52.2193
+    },
+    "lightgbm": {
+      "mae": 4.1002,
+      "rmse": 6.0087,
+      "wape": 30.8829,
+      "smape": 48.5614
+    },
+    "lstm": {
+      "mae": 4.205,
+      "rmse": 6.7518,
+      "wape": 31.6723,
+      "smape": 49.7062
+    }
+  },
+  "best_model_by_validation_metric": {
+    "mae": "lightgbm",
+    "rmse": "lightgbm",
+    "wape": "lightgbm",
+    "smape": "lightgbm"
+  },
+  "daily_comparison": [
+    {
+      "date": "2016-04-25",
+      "actual": 343.0,
+      "seasonal_naive": 367.0,
+      "moving_average": 451.21,
+      "lightgbm": 402.52,
+      "lstm": 427.46
+    },
+    {
+      "date": "2016-04-26",
+      "actual": 361.0,
+      "seasonal_naive": 363.0,
+      "moving_average": 451.21,
+      "lightgbm": 373.5,
+      "lstm": 335.91
+    },
+    {
+      "date": "2016-04-27",
+      "actual": 307.0,
+      "seasonal_naive": 335.0,
+      "moving_average": 451.21,
+      "lightgbm": 375.07,
+      "lstm": 311.56
+    },
+    {
+      "date": "2016-04-28",
+      "actual": 337.0,
+      "seasonal_naive": 368.0,
+      "moving_average": 451.21,
+      "lightgbm": 379.89,
+      "lstm": 322.03
+    },
+    {
+      "date": "2016-04-29",
+      "actual": 413.0,
+      "seasonal_naive": 412.0,
+      "moving_average": 451.21,
+      "lightgbm": 425.67,
+      "lstm": 410.85
+    },
+    {
+      "date": "2016-04-30",
+      "actual": 618.0,
+      "seasonal_naive": 558.0,
+      "moving_average": 451.21,
+      "lightgbm": 556.2,
+      "lstm": 503.52
+    },
+    {
+      "date": "2016-05-01",
+      "actual": 674.0,
+      "seasonal_naive": 520.0,
+      "moving_average": 451.21,
+      "lightgbm": 576.04,
+      "lstm": 508.13
+    },
+    {
+      "date": "2016-05-02",
+      "actual": 430.0,
+      "seasonal_naive": 343.0,
+      "moving_average": 442.21,
+      "lightgbm": 414.46,
+      "lstm": 439.44
+    },
+    {
+      "date": "2016-05-03",
+      "actual": 404.0,
+      "seasonal_naive": 361.0,
+      "moving_average": 442.21,
+      "lightgbm": 393.09,
+      "lstm": 358.26
+    },
+    {
+      "date": "2016-05-04",
+      "actual": 416.0,
+      "seasonal_naive": 307.0,
+      "moving_average": 442.21,
+      "lightgbm": 386.62,
+      "lstm": 340.35
+    },
+    {
+      "date": "2016-05-05",
+      "actual": 420.0,
+      "seasonal_naive": 337.0,
+      "moving_average": 442.21,
+      "lightgbm": 405.23,
+      "lstm": 341.08
+    },
+    {
+      "date": "2016-05-06",
+      "actual": 417.0,
+      "seasonal_naive": 413.0,
+      "moving_average": 442.21,
+      "lightgbm": 453.95,
+      "lstm": 416.44
+    },
+    {
+      "date": "2016-05-07",
+      "actual": 605.0,
+      "seasonal_naive": 618.0,
+      "moving_average": 442.21,
+      "lightgbm": 592.11,
+      "lstm": 498.32
+    },
+    {
+      "date": "2016-05-08",
+      "actual": 561.0,
+      "seasonal_naive": 674.0,
+      "moving_average": 442.21,
+      "lightgbm": 591.06,
+      "lstm": 500.81
+    },
+    {
+      "date": "2016-05-09",
+      "actual": 467.0,
+      "seasonal_naive": 430.0,
+      "moving_average": 436.21,
+      "lightgbm": 421.21,
+      "lstm": 420.84
+    },
+    {
+      "date": "2016-05-10",
+      "actual": 382.0,
+      "seasonal_naive": 404.0,
+      "moving_average": 436.21,
+      "lightgbm": 389.33,
+      "lstm": 345.25
+    },
+    {
+      "date": "2016-05-11",
+      "actual": 347.0,
+      "seasonal_naive": 416.0,
+      "moving_average": 436.21,
+      "lightgbm": 388.73,
+      "lstm": 336.3
+    },
+    {
+      "date": "2016-05-12",
+      "actual": 322.0,
+      "seasonal_naive": 420.0,
+      "moving_average": 436.21,
+      "lightgbm": 388.43,
+      "lstm": 353.18
+    },
+    {
+      "date": "2016-05-13",
+      "actual": 485.0,
+      "seasonal_naive": 417.0,
+      "moving_average": 436.21,
+      "lightgbm": 431.09,
+      "lstm": 437.17
+    },
+    {
+      "date": "2016-05-14",
+      "actual": 570.0,
+      "seasonal_naive": 605.0,
+      "moving_average": 436.21,
+      "lightgbm": 565.98,
+      "lstm": 511.43
+    },
+    {
+      "date": "2016-05-15",
+      "actual": 676.0,
+      "seasonal_naive": 561.0,
+      "moving_average": 436.21,
+      "lightgbm": 575.76,
+      "lstm": 492.31
+    },
+    {
+      "date": "2016-05-16",
+      "actual": 437.0,
+      "seasonal_naive": 467.0,
+      "moving_average": 445.64,
+      "lightgbm": 424.92,
+      "lstm": 437.63
+    },
+    {
+      "date": "2016-05-17",
+      "actual": 450.0,
+      "seasonal_naive": 382.0,
+      "moving_average": 445.64,
+      "lightgbm": 399.6,
+      "lstm": 343.85
+    },
+    {
+      "date": "2016-05-18",
+      "actual": 421.0,
+      "seasonal_naive": 347.0,
+      "moving_average": 445.64,
+      "lightgbm": 399.22,
+      "lstm": 320.0
+    },
+    {
+      "date": "2016-05-19",
+      "actual": 412.0,
+      "seasonal_naive": 322.0,
+      "moving_average": 445.64,
+      "lightgbm": 398.03,
+      "lstm": 337.07
+    },
+    {
+      "date": "2016-05-20",
+      "actual": 498.0,
+      "seasonal_naive": 485.0,
+      "moving_average": 445.64,
+      "lightgbm": 456.5,
+      "lstm": 436.08
+    },
+    {
+      "date": "2016-05-21",
+      "actual": 565.0,
+      "seasonal_naive": 570.0,
+      "moving_average": 445.64,
+      "lightgbm": 577.89,
+      "lstm": 531.83
+    },
+    {
+      "date": "2016-05-22",
+      "actual": 673.0,
+      "seasonal_naive": 676.0,
+      "moving_average": 445.64,
+      "lightgbm": 599.44,
+      "lstm": 529.43
+    }
+  ],
+  "error_distribution": [
+    {
+      "bucket": "<-10",
+      "seasonal_naive": 66,
+      "moving_average": 43,
+      "lightgbm": 23,
+      "lstm": 17
+    },
+    {
+      "bucket": "-10 to -5",
+      "seasonal_naive": 118,
+      "moving_average": 93,
+      "lightgbm": 85,
+      "lstm": 55
+    },
+    {
+      "bucket": "-5 to -2",
+      "seasonal_naive": 153,
+      "moving_average": 179,
+      "lightgbm": 236,
+      "lstm": 151
+    },
+    {
+      "bucket": "-2 to -0.5",
+      "seasonal_naive": 85,
+      "moving_average": 173,
+      "lightgbm": 169,
+      "lstm": 179
+    },
+    {
+      "bucket": "-0.5 to 0.5",
+      "seasonal_naive": 94,
+      "moving_average": 86,
+      "lightgbm": 90,
+      "lstm": 111
+    },
+    {
+      "bucket": "0.5 to 2",
+      "seasonal_naive": 160,
+      "moving_average": 97,
+      "lightgbm": 119,
+      "lstm": 145
+    },
+    {
+      "bucket": "2 to 5",
+      "seasonal_naive": 123,
+      "moving_average": 130,
+      "lightgbm": 106,
+      "lstm": 141
+    },
+    {
+      "bucket": "5 to 10",
+      "seasonal_naive": 96,
+      "moving_average": 108,
+      "lightgbm": 91,
+      "lstm": 94
+    },
+    {
+      "bucket": ">10",
+      "seasonal_naive": 85,
+      "moving_average": 71,
+      "lightgbm": 61,
+      "lstm": 87
+    }
+  ],
+  "model_metadata": {
+    "seasonal_naive": {
+      "name": "Seasonal Naive (7-Day)",
+      "status": "Ready",
+      "description": "Repeats actual sales from the exact same weekday 7 days prior as the baseline benchmark."
+    },
+    "moving_average": {
+      "name": "Moving Average (28-Day)",
+      "status": "Ready",
+      "description": "Projects the trailing 28-day mean daily sales flatly across the 7-day forecast horizon."
+    },
+    "lightgbm": {
+      "name": "LightGBM Regressor",
+      "status": "Trained",
+      "best_iteration": 94,
+      "train_rows": 110005,
+      "description": "Direct multi-step gradient boosted trees using 1/7/14/28-day lags, rolling statistics, price dynamics, and calendar/holiday features."
+    },
+    "lstm": {
+      "name": "PyTorch LSTM",
+      "status": "Trained",
+      "best_epoch": 11,
+      "total_epochs_run": 21,
+      "early_stopped": true,
+      "architecture": "28-day seq -> LSTM(64) -> LSTM(32) -> Dropout(0.2) -> FC(32) -> Output(7)",
+      "description": "Two-layer stacked LSTM sequence model capturing 28-day temporal demand trajectories, pricing, and cyclical seasonality."
+    }
+  }
+}

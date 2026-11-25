@@ -1,0 +1,58 @@
+[
+  {
+    "dept_id": "FOODS_3",
+    "cat_id": "FOODS",
+    "sku_count": 823,
+    "total_units": 3993834,
+    "recent_365d_units": 758260,
+    "is_active_modeled": true
+  },
+  {
+    "dept_id": "HOUSEHOLD_1",
+    "cat_id": "HOUSEHOLD",
+    "sku_count": 532,
+    "total_units": 1121388,
+    "recent_365d_units": 288728,
+    "is_active_modeled": false
+  },
+  {
+    "dept_id": "FOODS_2",
+    "cat_id": "FOODS",
+    "sku_count": 398,
+    "total_units": 900391,
+    "recent_365d_units": 186272,
+    "is_active_modeled": false
+  },
+  {
+    "dept_id": "HOBBIES_1",
+    "cat_id": "HOBBIES",
+    "sku_count": 416,
+    "total_units": 835578,
+    "recent_365d_units": 183191,
+    "is_active_modeled": false
+  },
+  {
+    "dept_id": "FOODS_1",
+    "cat_id": "FOODS",
+    "sku_count": 216,
+    "total_units": 577436,
+    "recent_365d_units": 118387,
+    "is_active_modeled": false
+  },
+  {
+    "dept_id": "HOUSEHOLD_2",
+    "cat_id": "HOUSEHOLD",
+    "sku_count": 515,
+    "total_units": 347116,
+    "recent_365d_units": 77286,
+    "is_active_modeled": false
+  },
+  {
+    "dept_id": "HOBBIES_2",
+    "cat_id": "HOBBIES",
+    "sku_count": 149,
+    "total_units": 56505,
+    "recent_365d_units": 15557,
+    "is_active_modeled": false
+  }
+]

@@ -1,0 +1,71 @@
+{
+  "store_id": "CA_1",
+  "dept_id": "FOODS_3",
+  "num_products": 35,
+  "selected_items": [
+    "FOODS_3_090",
+    "FOODS_3_586",
+    "FOODS_3_252",
+    "FOODS_3_587",
+    "FOODS_3_714",
+    "FOODS_3_681",
+    "FOODS_3_501",
+    "FOODS_3_080",
+    "FOODS_3_555",
+    "FOODS_3_099",
+    "FOODS_3_295",
+    "FOODS_3_741",
+    "FOODS_3_202",
+    "FOODS_3_702",
+    "FOODS_3_744",
+    "FOODS_3_406",
+    "FOODS_3_697",
+    "FOODS_3_086",
+    "FOODS_3_363",
+    "FOODS_3_580",
+    "FOODS_3_654",
+    "FOODS_3_534",
+    "FOODS_3_339",
+    "FOODS_3_107",
+    "FOODS_3_156",
+    "FOODS_3_217",
+    "FOODS_3_076",
+    "FOODS_3_203",
+    "FOODS_3_346",
+    "FOODS_3_727",
+    "FOODS_3_460",
+    "FOODS_3_418",
+    "FOODS_3_332",
+    "FOODS_3_067",
+    "FOODS_3_246"
+  ],
+  "total_records": 67935,
+  "date_min": "2011-01-29",
+  "date_max": "2016-05-22",
+  "splits": {
+    "train": {
+      "d_start": 1,
+      "d_end": 1885,
+      "days": 1885
+    },
+    "validation": {
+      "d_start": 1886,
+      "d_end": 1913,
+      "days": 28
+    },
+    "test": {
+      "d_start": 1914,
+      "d_end": 1941,
+      "days": 28
+    }
+  },
+  "data_quality": {
+    "sales_duplicates_removed": 0,
+    "calendar_duplicates_removed": 0,
+    "price_duplicates_removed": 0,
+    "calendar_missing_events_filled": 1807,
+    "missing_prices_before_imputation": 336,
+    "missing_prices_after_imputation": 0,
+    "missing_sales_values": 0
+  }
+}

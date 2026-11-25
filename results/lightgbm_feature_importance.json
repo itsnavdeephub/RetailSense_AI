@@ -1,0 +1,157 @@
+[
+  {
+    "feature": "target_doy_cos",
+    "importance": 513,
+    "importance_pct": 11.86
+  },
+  {
+    "feature": "item_train_mean",
+    "importance": 357,
+    "importance_pct": 8.26
+  },
+  {
+    "feature": "target_doy_sin",
+    "importance": 307,
+    "importance_pct": 7.1
+  },
+  {
+    "feature": "same_weekday_lag_7",
+    "importance": 301,
+    "importance_pct": 6.96
+  },
+  {
+    "feature": "roll_mean_7",
+    "importance": 301,
+    "importance_pct": 6.96
+  },
+  {
+    "feature": "same_weekday_lag_14",
+    "importance": 264,
+    "importance_pct": 6.11
+  },
+  {
+    "feature": "target_wday",
+    "importance": 258,
+    "importance_pct": 5.97
+  },
+  {
+    "feature": "lag_1",
+    "importance": 256,
+    "importance_pct": 5.92
+  },
+  {
+    "feature": "roll_mean_28",
+    "importance": 256,
+    "importance_pct": 5.92
+  },
+  {
+    "feature": "target_dow_cos",
+    "importance": 232,
+    "importance_pct": 5.37
+  },
+  {
+    "feature": "sell_price",
+    "importance": 136,
+    "importance_pct": 3.15
+  },
+  {
+    "feature": "roll_std_28",
+    "importance": 124,
+    "importance_pct": 2.87
+  },
+  {
+    "feature": "roll_mean_14",
+    "importance": 114,
+    "importance_pct": 2.64
+  },
+  {
+    "feature": "item_train_std",
+    "importance": 97,
+    "importance_pct": 2.24
+  },
+  {
+    "feature": "roll_std_7",
+    "importance": 95,
+    "importance_pct": 2.2
+  },
+  {
+    "feature": "target_month",
+    "importance": 89,
+    "importance_pct": 2.06
+  },
+  {
+    "feature": "item_code",
+    "importance": 83,
+    "importance_pct": 1.92
+  },
+  {
+    "feature": "roll_std_14",
+    "importance": 71,
+    "importance_pct": 1.64
+  },
+  {
+    "feature": "price_rel_train",
+    "importance": 62,
+    "importance_pct": 1.43
+  },
+  {
+    "feature": "target_month_sin",
+    "importance": 61,
+    "importance_pct": 1.41
+  },
+  {
+    "feature": "target_event_type_code",
+    "importance": 55,
+    "importance_pct": 1.27
+  },
+  {
+    "feature": "target_month_cos",
+    "importance": 49,
+    "importance_pct": 1.13
+  },
+  {
+    "feature": "target_snap_ca",
+    "importance": 49,
+    "importance_pct": 1.13
+  },
+  {
+    "feature": "lag_28",
+    "importance": 43,
+    "importance_pct": 0.99
+  },
+  {
+    "feature": "target_dow_sin",
+    "importance": 34,
+    "importance_pct": 0.79
+  },
+  {
+    "feature": "target_is_weekend",
+    "importance": 34,
+    "importance_pct": 0.79
+  },
+  {
+    "feature": "target_has_event",
+    "importance": 25,
+    "importance_pct": 0.58
+  },
+  {
+    "feature": "lag_14",
+    "importance": 21,
+    "importance_pct": 0.49
+  },
+  {
+    "feature": "lag_7",
+    "importance": 16,
+    "importance_pct": 0.37
+  },
+  {
+    "feature": "price_change_7d",
+    "importance": 16,
+    "importance_pct": 0.37
+  },
+  {
+    "feature": "horizon",
+    "importance": 5,
+    "importance_pct": 0.12
+  }
+]
